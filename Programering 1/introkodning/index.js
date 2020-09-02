@@ -15,4 +15,4 @@ if (age >=18){
 } else {
 } console.log("Linus är jätte fin")
 let text= document. querySelector("#text")
-text.innerText = `${name} är ${age} år gammal`
+text.innerText = `Jag heter ${name} och är ${age} år gammal. Jag gillar spel, serier, bilar, motorcyklar och sova`
