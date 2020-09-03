@@ -40,5 +40,6 @@ function math(event) {
     sub.innerHTML = `${num1}-${num2}=${num1+num2}`
     mult.innerHTML = `${num1}*${num2}=${num1+num2}`
     div.innerHTML = `${num1}/${num2}=${num1+num2}`
+    
 
 }
