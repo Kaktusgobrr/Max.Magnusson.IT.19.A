@@ -7,7 +7,7 @@ console.log(`Hej ${name} du är ${age} år gammal`)
 if (age >=18){
     conslose.log("du är vuxen")
 } else {
-     }     console.log("haha du är 16")
+     }     console.log("sluta va så jävla snygg")
 
 if (age >=18){
 } else {
