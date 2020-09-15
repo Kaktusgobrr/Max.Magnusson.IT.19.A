@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="mailto:maxemil.magnusson@gmail.com" method="get" enctype="text/plain">
+      <h1>Coolt som fan ellerhur</h1>
+      <p>FYll i dina uppgifter i formuläret</p>
+
+      <label for="email">Password</label>
+      <input type="email" placeholder="E-post" name="email" id="email" required />
+
+      <div>
+        <label for="psw-repeat">Repeat Password</label>
+        <input
+          type="password"
+          placeholder="Reapet Password"
+          name="psw-repeat"
+          id="psw-repeat"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="switch"
+          >Jag vill att du skall köpa min produkt
+          <input type="checkbox" />
+          <spam class="slider"></spam>
+        </label>
+      </div>
+      <div>
+        <label for="gender">Kön</label>
+        <select id="gender" name="gender">
+          <option value="kvinna">kvinna</option>
+          <option value="man">man</option>
+          <option value="vill inte ange">osäker</option>
+        </select>
+      </div>
+      <button type="submit" class="regisrtation">register</button>
+
+      <div>
+        <h1>Hur lång är du?</h1>
+        <label for="kort">1-10 mil</label>
+        <input type="radio" id="kort" />
+      </div>
+
+      <div>
+        <h1>Återställ nedan</h1>
+        <button type="reset" class="återställ">återställ</button>
+      </div>
+    </form>
+  </body>
+</html>
