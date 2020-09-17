@@ -10,8 +10,13 @@
       <h1>Coolt som fan ellerhur</h1>
       <p>FYll i dina uppgifter i formuläret</p>
 
-      <label for="email">Password</label>
+      <label for="email">E-mail</label>
       <input type="email" placeholder="E-post" name="email" id="email" required />
+
+      <div>
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Password" name="psw" id="psw" required />
+      </div>
 
       <div>
         <label for="psw-repeat">Repeat Password</label>
@@ -21,6 +26,16 @@
           name="psw-repeat"
           id="psw-repeat"
           required
+        />
+      </div>
+
+      <div>
+        <label for="intressen">Mina favoritintressen</label>
+        <input
+          type="text"
+          placeholder="Intressen....."
+          name="Mina favorit intressen"
+          id="intressen"
         />
       </div>
 
@@ -45,6 +60,13 @@
         <h1>Hur lång är du?</h1>
         <label for="kort">1-10 mil</label>
         <input type="radio" id="kort" />
+      </div>
+
+      <div>
+        <h2>När fyller du år?</h2>
+        <label for="datum">Datum:</label>
+        <input type="date" id="Datum" name="Datum" />
+        <input type="submit" value="Submit" />
       </div>
 
       <div>
