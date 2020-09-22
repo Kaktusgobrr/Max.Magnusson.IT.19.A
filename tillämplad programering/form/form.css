@@ -8,10 +8,10 @@ h1 {
   text-align: center;
   padding: 50px;
   background-color: lightgrey;
-  border-color: black;
+  border: 10px black;
   margin-right: 20%;
   margin-left: 20%;
-  border-radius: 20%;
+  /*border-radius: 20%;*/
 }
 
 p {
@@ -24,5 +24,6 @@ form {
   text-align: center;
 }
 
-table {
+article {
+  background-color: lightgrey;
 }
