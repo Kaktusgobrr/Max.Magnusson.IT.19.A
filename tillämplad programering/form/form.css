@@ -1,0 +1,28 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: coral;
+  font-size: 35px;
+  text-align: center;
+  padding: 50px;
+  background-color: lightgrey;
+  border-color: black;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 20%;
+}
+
+p {
+  color: coral;
+  font-size: 30px;
+}
+
+form {
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+}
