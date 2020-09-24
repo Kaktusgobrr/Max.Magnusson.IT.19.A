@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: coral;
+  color: black;
   font-size: 35px;
   text-align: center;
   padding: 50px;
@@ -15,15 +15,22 @@ h1 {
 }
 
 p {
-  color: coral;
-  font-size: 30px;
+  color: black;
+  font-size: 25px;
 }
 
 form {
   font-size: 20px;
-  text-align: center;
 }
 
 article {
+  text-align: left;
   background-color: lightgrey;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 50px;
+}
+
+button {
+  block-size: 35px;
 }
