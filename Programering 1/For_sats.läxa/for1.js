@@ -4,17 +4,11 @@ let p_summa = document.querySelector("#summa");
 let p_lektioner = document.querySelector("#lektioner");
 let summa = 0;
 
-for (let i = 1; i <= 10; i++) {
-  p_talserie1.innerHTML += `${i} `;
+for (let i = 1; i <= 50; i++) {
+  p_talserie1.innerHTML += `${2 * i}, `;
+  p_talserie2.innerHTML += `${2 * i + 1}, `;
 }
 
-for (let J = 10; J > 0; J--) {
-  p_talserie2.innerHTML += `${J} `;
-}
-
-for (let i = 0; i <= 10; i++) {
-  summa += i;
-}
 p_summa.innerHTML += `1 + 2 + 3 +...+ 9 + 10`;
 console.log(summa);
 
@@ -33,6 +27,6 @@ var lektioner = [
 var text = "hej";
 var i;
 for (i = 0; i < lektioner.length; i++) {
-  text += cars[i] + "<br>";
+  text += lektioner[i] + "<br>";
 }
 document.getElementById("lektioner").innerHTML = text;
