@@ -1,0 +1,36 @@
+body {
+  background-color: orange;
+}
+
+h1 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 50px;
+  background-color: lightgrey;
+  border: 10px black;
+  margin-right: 20%;
+  margin-left: 20%;
+  /*border-radius: 20%;*/
+}
+
+p {
+  color: black;
+  font-size: 25px;
+}
+
+form {
+  font-size: 20px;
+}
+
+article {
+  text-align: left;
+  background-color: lightgrey;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding: 50px;
+}
+
+button {
+  block-size: 35px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+  <body>
+    <form action="mailto:maxemil.magnusson@gmail.com" method="get" enctype="text/plain">
+      <h1>Coolt som fan ellerhur</h1>
+      <p>Fyll i dina uppgifter i formuläret</p>
+
+      <label for="email">E-mail</label>
+      <input type="email" placeholder="E-post" name="email" id="email" required />
+
+      <div>
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Password" name="psw" id="psw" required />
+      </div>
+
+      <div>
+        <label for="psw-repeat">Repeat Password</label>
+        <input
+          type="password"
+          placeholder="Reapet Password"
+          name="psw-repeat"
+          id="psw-repeat"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="intressen">Mina favoritintressen</label>
+        <input
+          type="text"
+          placeholder="Intressen....."
+          name="Mina favorit intressen"
+          id="intressen"
+        />
+      </div>
+
+      <div>
+        <label class="switch"
+          >Jag vill att du skall köpa min produkt
+          <input type="checkbox" />
+          <spam class="slider"></spam>
+        </label>
+      </div>
+      <div>
+        <label for="gender">Kön</label>
+        <select id="gender" name="gender">
+          <option value="kvinna">kvinna</option>
+          <option value="man">man</option>
+          <option value="vill inte ange">osäker</option>
+        </select>
+      </div>
+      <button type="submit" class="regisrtation">register</button>
+    </form>
+  </body>
+</html>
