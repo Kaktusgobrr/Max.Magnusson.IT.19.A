@@ -99,3 +99,9 @@ li a:hover {
   max-width: 50%;
   height: auto;
 }
+
+.Startsidan {
+  float: right;
+  max-width: 300px;
+  max-height: 250px;
+}
