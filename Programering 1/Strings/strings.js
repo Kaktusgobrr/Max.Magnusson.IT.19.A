@@ -24,3 +24,11 @@ console.log(`Bokstav på index 4 är: ${bokstav5}`)
 let antal_bokstaver = alfabet.length
 console.log(`Antal bokstäver i alfabetet är ${antal_bokstaver}`)
 
+let mening ="Jag läser It-programmet på NTI Kronhus i Göteborg"
+function räkna_ord(ord){
+
+    let res = ord.split(" ");
+    let n = res.length;
+    return n
+}
+console.log (räkna_ord(mening))
