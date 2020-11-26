@@ -1,13 +1,26 @@
-let palindromBtn = document.querySelector("#palindromBtn")
+let textArea = document.querySelector("#textArea")
+let knapp = document.querySelector("#palindromBtn")
+let p_diplaywords = document.querySelector("#displaywords")
+ 
+knapp.addEventListener("click", countWords);
 
-palindromBtn.addEventListener("click", palindrom)
+function countWords(){
 
-function wordcounter(){
-    let textarea = document.querySelector("#textArea")
-    console.log("Kör funktionen palindrom")
-    let text = textarea.value
-    console.log(text)
-    let palindrom = text.split(" ").join("")
-    console.log(palindrom)
-    p_displaywords.innerHTML = palindrom
+  if (palindrom(textArea.value)){
+    p_diplaywords.innerHTML = "Palindrom går brrrrrrrrrrr"
+  } else {
+
+    p_diplaywords.innerHTML = "Palindrom går inte brrrrrrrrrrrrr"
+  }
+
+}
+
+
+function palindrom(str){
+    let reversed = str.split("").reverse().join("")
+    console.log(reversed)
+    if (reversed === str) 
+      return true;
+
+    return false;
 }
