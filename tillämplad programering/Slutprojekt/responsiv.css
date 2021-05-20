@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+}
+header,
+aside {
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  background-color: darkgrey;
+}
+/*nav, article, aside wrapper*/
+
+nav {
+  border: 1px solid black;
+  text-align: center;
+  margin: 35px;
+  background-color: darkgrey;
+}
+
+article {
+  border: 1px solid black;
+  text-align: center;
+  margin: 50px;
+  background-color: darkgrey;
+}
+
+/*size of nav, artivle, aside*/
+nav {
+  flex: 1;
+}
+article {
+  flex: 3;
+}
+
+footer {
+  flex: 1;
+  width: 55px;
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  background-color: darkgrey;
+}
+/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+@media only screen and (max-width: 660px) {
+  section {
+    flex-direction: column;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: darkgrey;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+  color: black;
+}
+
+#starttext {
+  padding: 8px, 16px;
+}
+
+.startpics {
+  width: 40%;
+  margin-bottom: 15px;
+}
+
+.startpics2 {
+  width: 10%;
+}
