@@ -1,6 +1,3 @@
-body {
-  background-color: white;
-}
 header,
 aside {
   border: 1px solid black;
@@ -8,6 +5,7 @@ aside {
   background: rgb(255, 255, 255);
   margin: 5px;
   background-color: darkgrey;
+  border-radius: 40px;
 }
 /*nav, article, aside wrapper*/
 
@@ -16,6 +14,7 @@ nav {
   text-align: center;
   margin: 35px;
   background-color: darkgrey;
+  border-radius: 40px;
 }
 
 article {
@@ -23,6 +22,17 @@ article {
   text-align: center;
   margin: 50px;
   background-color: darkgrey;
+  border-radius: 40px;
+}
+
+.horizont {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.horizont .h {
+  flex: 1;
 }
 
 /*size of nav, artivle, aside*/
@@ -31,6 +41,9 @@ nav {
 }
 article {
   flex: 3;
+  font-size: x-large;
+  text-shadow: #595353;
+  margin-right: 15px;
 }
 
 footer {
@@ -52,31 +65,43 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: darkgrey;
 }
 
 li a {
   display: block;
-  color: black;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
+  border: solid black;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #595353;
 }
 
 li a:hover {
   background-color: gray;
   color: black;
+  border: solid black;
+  border-radius: 25px;
 }
 
-#starttext {
+.starttext {
   padding: 8px, 16px;
+  margin-right: 15px;
+  text-shadow: #595353;
+  font-size: 24;
 }
 
 .startpics {
   width: 40%;
   margin-bottom: 15px;
+  border: solid black;
+  border-radius: 45px;
 }
 
 .startpics2 {
   width: 10%;
+  margin-bottom: 15px;
+  border: solid black;
+  border-radius: 35px;
 }
